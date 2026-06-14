@@ -163,7 +163,6 @@ def build_parser() -> argparse.ArgumentParser:
 
     return parser
 
-
 def main(argv: List[str]) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
