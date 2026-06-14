@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Dataset 
+/dataset/Ai_generated_dataset/
+/dataset/real_dataset/
+
+/output/*.csv
+!/output/batch_calibrated.csv
